@@ -2,9 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2020/07/31/hello-world/</loc>
+    <loc>http://yoursite.com/2020/08/01/003_Hexo_%E6%B7%BB%E5%8A%A0%E7%9C%8B%E6%9D%BF%E5%A8%98/</loc>
+    
+    <lastmod>2020-08-01T06:23:31.767Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/08/01/002_Hexo_%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98/</loc>
+    
+    <lastmod>2020-08-01T06:14:48.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/08/01/001_Hexo%E9%83%A8%E7%BD%B2/</loc>
+    
+    <lastmod>2020-08-01T06:13:55.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/08/01/000_Git%E9%85%8D%E7%BD%AE/</loc>
+    
+    <lastmod>2020-08-01T06:12:45.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2020/08/01/hello-world/</loc>
     
     <lastmod>2020-07-31T14:54:42.061Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/404.html</loc>
+    
+    <lastmod>2020-07-31T13:59:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/index.html</loc>
+    
+    <lastmod>2020-07-31T13:59:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/books/index.html</loc>
+    
+    <lastmod>2020-07-31T13:59:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/categories/index.html</loc>
+    
+    <lastmod>2020-07-31T13:59:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/links/index.html</loc>
+    
+    <lastmod>2020-07-31T13:59:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/repository/index.html</loc>
+    
+    <lastmod>2020-07-31T13:59:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2020-07-31T13:59:09.000Z</lastmod>
     
   </url>
   

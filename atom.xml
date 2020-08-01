@@ -1,21 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Friday</title>
+  <title>do it</title>
   
-  <subtitle>Friday</subtitle>
+  
   <link href="/himing.io/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-07-31T14:54:42.061Z</updated>
+  <updated>2020-08-01T06:23:31.767Z</updated>
   <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>明</name>
+    
+  </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo添加看板娘</title>
+    <link href="http://yoursite.com/2020/08/01/003_Hexo_%E6%B7%BB%E5%8A%A0%E7%9C%8B%E6%9D%BF%E5%A8%98/"/>
+    <id>http://yoursite.com/2020/08/01/003_Hexo_%E6%B7%BB%E5%8A%A0%E7%9C%8B%E6%9D%BF%E5%A8%98/</id>
+    <published>2020-08-01T06:15:16.000Z</published>
+    <updated>2020-08-01T06:23:31.767Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Hexo添加看板娘"><a href="#Hexo添加看板娘" class="headerlink" title="Hexo添加看板娘"></a>Hexo添加看板娘</h1><ol><li><p>安装插件  </p><ul><li><code>sudo npm install --save hexo-helper-live2d</code>  </li></ul></li><li><p>下载模型  </p><ul><li><code>模型预览地址:https://huaji8.top/post/live2d-plugin-2.0/</code>  </li><li><code>sudo npm install live2d-widget-model-hijiki</code>  </li></ul></li><li><p>在博客根目录配置文件_config.yml写入配置  </p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">live2d:  </span><br><span class="line">    enable: true    </span><br><span class="line">    scriptFrom: local  </span><br><span class="line">    pluginRootPath: live2dw&#x2F;    </span><br><span class="line">    pluginJsPath: lib&#x2F;  </span><br><span class="line">    pluginModelPath: assets&#x2F;  </span><br><span class="line">    tagMode: false  </span><br><span class="line">    debug: false  </span><br><span class="line">    model:  </span><br><span class="line">        use: live2d-widget-model-tororo  </span><br><span class="line">    display:  </span><br><span class="line">        position: right  </span><br><span class="line">        width: 150  </span><br><span class="line">        height: 300  </span><br><span class="line">    mobile:  </span><br><span class="line">        show: true</span><br></pre></td></tr></table></figure></li><li><p>部署  </p><ul><li>清除缓存  <ul><li><code>hexo clean</code></li></ul></li><li>生成静态文件  <ul><li><code>hexo g</code></li></ul></li><li>部署到本地<ul><li><code>hexo s</code></li></ul></li><li>部署到仓库 <ul><li><code>hexo d</code></li></ul></li></ul></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Hexo添加看板娘&quot;&gt;&lt;a href=&quot;#Hexo添加看板娘&quot; class=&quot;headerlink&quot; title=&quot;Hexo添加看板娘&quot;&gt;&lt;/a&gt;Hexo添加看板娘&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;安装插件  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo np
+      
+    
+    </summary>
+    
+    
+      <category term="静态博客框架" scheme="http://yoursite.com/categories/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E6%A1%86%E6%9E%B6/"/>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo更换主题</title>
+    <link href="http://yoursite.com/2020/08/01/002_Hexo_%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98/"/>
+    <id>http://yoursite.com/2020/08/01/002_Hexo_%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98/</id>
+    <published>2020-08-01T06:10:29.000Z</published>
+    <updated>2020-08-01T06:14:48.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Hexo更换主题"><a href="#Hexo更换主题" class="headerlink" title="Hexo更换主题"></a>Hexo更换主题</h1><ol><li><p>下载主题Pure<br> <code>git clone https://github.com/cofess/hexo-theme-pure.git themes/pure</code></p></li><li><p>修改配置文件_config.yml  </p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># Extensions</span><br><span class="line">## Plugins: https:&#x2F;&#x2F;hexo.io&#x2F;plugins&#x2F;</span><br><span class="line">## Themes: https:&#x2F;&#x2F;hexo.io&#x2F;themes&#x2F;</span><br><span class="line">theme: pure</span><br></pre></td></tr></table></figure></li><li><p>更新主题   </p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">方法一</span><br><span class="line">cd themes&#x2F;pure  </span><br><span class="line">git pull</span><br></pre></td></tr></table></figure> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">方法二</span><br><span class="line">sudo hexo clean</span><br><span class="line">sudo hexo g</span><br><span class="line">sudo hexo d</span><br></pre></td></tr></table></figure></li><li><p>配置主题<br> <code>pure主题配置地址:https://blog.cofess.com/2017/11/01/hexo-blog-theme-pure-usage-description.html</code></p><blockquote><p>不同的主题配置方法不一样。请进入主题的仓库首页查询相关配置信息</p></blockquote></li></ol><ol start="5"><li>安装插件<ul><li>安装hexo-wordcount<br><code>npm install hexo-wordcount --save</code></li><li>安装hexo-generator-json-content<br><code>npm install hexo-generator-json-content --save</code>  </li><li>安装hexo-generator-feed<br><code>npm install hexo-generator-feed --save</code>  </li><li>安装hexo-generator-sitemap<br><code>npm install hexo-generator-sitemap --save</code></li><li>安装hexo-generator-baidu-sitemap<br><code>npm install hexo-generator-baidu-sitemap --save</code>  <blockquote><p>注意：以上五个插件并不需要全部安装请按照需求个人需要安装插件</p></blockquote></li></ul></li><li>添加页面<ul><li>添加标签页<br><code>hexo new page tags</code>  </li><li>添加分类页<br><code>hexo new page categories</code></li></ul></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Hexo更换主题&quot;&gt;&lt;a href=&quot;#Hexo更换主题&quot; class=&quot;headerlink&quot; title=&quot;Hexo更换主题&quot;&gt;&lt;/a&gt;Hexo更换主题&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;下载主题Pure&lt;br&gt; &lt;code&gt;git clone https://
+      
+    
+    </summary>
+    
+    
+      <category term="静态博客框架" scheme="http://yoursite.com/categories/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E6%A1%86%E6%9E%B6/"/>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo博客框架配置</title>
+    <link href="http://yoursite.com/2020/08/01/001_Hexo%E9%83%A8%E7%BD%B2/"/>
+    <id>http://yoursite.com/2020/08/01/001_Hexo%E9%83%A8%E7%BD%B2/</id>
+    <published>2020-08-01T06:08:14.000Z</published>
+    <updated>2020-08-01T06:13:55.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Hexo博客框架配置"><a href="#Hexo博客框架配置" class="headerlink" title="Hexo博客框架配置"></a>Hexo博客框架配置</h1><ol><li>安装nodejs  <ul><li><code>sudo apt-get install nodejs</code>  </li></ul></li><li>安装npm<ul><li><code>sudo apt-get install npm</code></li></ul></li><li>安装hexo博客框架<ul><li><code>sudo npm install -g hexo-cli</code>  </li></ul></li><li>创建博客  <ol><li>初始化文件夹 <ul><li><code>sudo hexo init</code></li></ul></li><li>修改配置文件_config.yml  <ul><li>sudo chmod 777 _config.yml<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"># Site</span><br><span class="line">language: zh-CN</span><br><span class="line">timezone: Asia&#x2F;Shanghai</span><br><span class="line"></span><br><span class="line"># URL</span><br><span class="line">url: http:&#x2F;&#x2F;yoursite.com</span><br><span class="line">root: &#x2F;himing.io&#x2F; </span><br><span class="line"></span><br><span class="line"># Deployment</span><br><span class="line">deploy:</span><br><span class="line">type: &#39;git&#39;</span><br><span class="line">repo: &#39;https:&#x2F;&#x2F;github.com&#x2F;Himing4&#x2F;himing.io.git&#39;</span><br><span class="line">branch: master</span><br></pre></td></tr></table></figure></li></ul></li><li>安装部署工具  <ul><li><code>sudo npm install hexo-deployer-git --save</code></li></ul></li><li>部署前准备<ol><li>清除缓存<ul><li><code>sudo hexo clean </code> </li></ul></li><li>生成静态文件<ul><li><code>sudo hexo generate</code>  </li></ul></li><li>部署<ul><li><code>sudo hexo deploy</code></li></ul></li></ol></li></ol></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Hexo博客框架配置&quot;&gt;&lt;a href=&quot;#Hexo博客框架配置&quot; class=&quot;headerlink&quot; title=&quot;Hexo博客框架配置&quot;&gt;&lt;/a&gt;Hexo博客框架配置&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;安装nodejs  &lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo ap
+      
+    
+    </summary>
+    
+    
+      <category term="静态博客框架" scheme="http://yoursite.com/categories/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E6%A1%86%E6%9E%B6/"/>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git开发环境</title>
+    <link href="http://yoursite.com/2020/08/01/000_Git%E9%85%8D%E7%BD%AE/"/>
+    <id>http://yoursite.com/2020/08/01/000_Git%E9%85%8D%E7%BD%AE/</id>
+    <published>2020-08-01T06:07:14.000Z</published>
+    <updated>2020-08-01T06:12:45.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Git开发环境"><a href="#Git开发环境" class="headerlink" title="Git开发环境"></a>Git开发环境</h1><h2 id="Git配置"><a href="#Git配置" class="headerlink" title="Git配置"></a>Git配置</h2><ol><li>安装Git  <ul><li><code>sudo apt install git</code></li></ul></li><li>配置Git<ul><li><code>git config --global user.email &quot;xxxxx@qq.com&quot;</code>  </li><li><code>git config --global user.name &quot;gitName&quot;</code></li></ul></li><li>生成密钥<ul><li><code>ssh-keygen -t rsa -C &quot;xxxxxxx@qq.com&quot;</code>  </li></ul></li><li>Github配置  <ul><li>复制id_rsa.pub  </li><li>打开Github官网  </li><li>点击头像，选择Setting  </li><li>SSH and GPG keys  </li><li>Add SSH keys  </li></ul></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Git开发环境&quot;&gt;&lt;a href=&quot;#Git开发环境&quot; class=&quot;headerlink&quot; title=&quot;Git开发环境&quot;&gt;&lt;/a&gt;Git开发环境&lt;/h1&gt;&lt;h2 id=&quot;Git配置&quot;&gt;&lt;a href=&quot;#Git配置&quot; class=&quot;headerlink&quot; ti
+      
+    
+    </summary>
+    
+    
+      <category term="搭建开发环境" scheme="http://yoursite.com/categories/%E6%90%AD%E5%BB%BA%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
+    
+    
+      <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2020/07/31/hello-world/"/>
-    <id>http://yoursite.com/2020/07/31/hello-world/</id>
-    <published>2020-07-31T14:54:42.061Z</published>
+    <link href="http://yoursite.com/2020/08/01/hello-world/"/>
+    <id>http://yoursite.com/2020/08/01/hello-world/</id>
+    <published>2020-08-01T06:06:12.217Z</published>
     <updated>2020-07-31T14:54:42.061Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
